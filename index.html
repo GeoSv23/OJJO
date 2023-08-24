@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juwerly scss</title>
-    <link rel="stylesheet" type="text/css" href="src/scss/style.scss">
-</head>
-  
-<body>
-  <div class="container">
-    <header class="header main_header">
-      <div class="header__nav">
-        <p class="header__p">
-          по умолчанию
-        </p>
-        <p class="header__p">
-          по умолчанию
-        </p>
-        <p class="header__p">
-          по умолчанию
-        </p>
-      </div>
-      <div class="header__image">
-        <img src="/public/images/OJJO.png" alt="ojjo">
-      </div>
-      <div class="header__nav">
-        <img src="/public/icons/gridicons_search.png" alt="">
-        <p class="header__p">
-          по умолчанию
-        </p>
-        <p class="header__p">
-          по умолчанию
-        </p>
-        <img src="/public/icons/user.png" alt="">
-        <img src="/public/icons/hart.png" alt="">
-      </div>
-    </header>
-    <div class="catalog">
-      <div class="catalog__title">
-        <h1>Долго, дорого, красиво</h1>
-      </div>
-      <div class="catalog__button">
-        <button class="catalog__button_first">Каталог</button>
-      </div>
+    <link rel="stylesheet" type="text/css" href="src/scss/style.scss" />
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="first_section">
+        <header class="header">
+          <div class="header__info">
+            <p class="header__p">по умолчанию</p>
+            <p class="header__p">по умолчанию</p>
+            <p class="header__p">по умолчанию</p>
+          </div>
+          <div class="header__image">
+            <img src="/public/images/OJJO.png" alt="ojjo" />
+          </div>
+          <div class="header__nav">
+            <a href="https://www.google.ru/">
+              <img src="/public/icons/gridicons_search.png" alt="" />
+            </a>
+            <p class="header__p">по умолчанию</p>
+            <p class="header__p">по умолчанию</p>
+            <img src="/public/icons/user.png" alt="" />
+            <img src="/public/icons/hart.png" alt="" />
+          </div>
+        </header>
+        <div class="catalog">
+          <div class="catalog__title">
+            <h1>Долго, дорого, красиво</h1>
+          </div>
+
+          <button class="catalog__button_first">Каталог</button>
+        </div>
+        <div class="catalog__brands">
+          <div class="catalog__brands_img">
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+          </div>
+          <div class="catalog__brands_img">
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+
+            <img src="/public/images/Rectangle 2.png" alt="brand" />
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="product__desc">
+          <p>К мероприятиям</p>
+          <h2>Настоящая красота здесь</h2>
+        </div>
+        <div class="product__buttons">
+          <button>по умолчанию</button>
+          <button>по умолчанию</button>
+          <button>по умолчанию</button>
+          <button>по умолчанию</button>
+          <button>по умолчанию</button>
+          <button>по умолчанию</button>
+        </div>
+        <div class="product__images">
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+          <img src="public/images/Rectangle 5 (4).png" alt="" />
+        </div>
+      </section>
     </div>
-    <div class="catalog__brands">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-      <img src="/public/images/Rectangle 2.png" alt="brand">
-    </div>
-  
-  </div>
-  
-  
-</body>
+  </body>
 </html>
