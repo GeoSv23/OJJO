@@ -1,4 +1,7 @@
 @import url(nullstyle.scss);
+@import url(catalogStyle.scss);
+@import url(card__product.scss);
+@import url(map.scss);
 
 @mixin breakPointSmall {
   @media screen and (min-width: 1400px) {
@@ -171,10 +174,13 @@ $light: #fff;
     .catalog {
         margin-bottom: 80px;
     }
-    
+    .catalog__button_first {
+        margin-bottom: 100px;
+    }
 }
   .catalog__button_first {
     @include buttonStyle;
+    
   }
 
   .catalog__button_first:hover {
@@ -491,9 +497,34 @@ line-height: 150%
     line-height: 40px;
 }
 
+@media screen and (max-width: 992px) {
+    .footer__contacts {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__contacts-column {
+        max-width: 100%;
+    }
+
+    .footer__contacts-ul h1 {
+        font-size: large;
+        border-top: 1px solid $dark;
+        border-bottom: 1px solid $dark;
+    }
+    
+}
+
 .footer__rights {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer__rights {
+        display: block;
+        text-align: center;
+    }
 }
