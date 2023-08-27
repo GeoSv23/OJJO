@@ -40,11 +40,11 @@
   
  
   
-  .header__general {
+.header__general {
     display: flex;
     justify-content: center;
     padding: 20px 0px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     background-color: #3a3939;
     .header__info {
       display: flex;
@@ -120,14 +120,23 @@
     /* gap: 20px; */
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
   }
+
+.catalog__options_selector {
+  border-bottom: 1px solid;
+  width: 100px;
+  padding: 10px;
+}
 
   .catalogCards {
     gap: 20px;
     display: flex;
     text-align: center;
     padding: 40px;
+  }
+
+  .catalogCards__coast {
+    @include buttonStyle;
   }
 
   .delivery {
